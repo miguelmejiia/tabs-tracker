@@ -6,6 +6,7 @@ const listEl = document.getElementById("list-el")
 inputBtn.addEventListener("click", function () {
     myLeads.push(inputEl.value)
     inputEl.value = ""
+    localStorage.setItem("myLeads", JSON.stringify(myLeads))
     renderLeads()
 })
 
