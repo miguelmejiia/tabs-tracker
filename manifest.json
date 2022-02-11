@@ -1,9 +1,12 @@
 {
     "manifest_version": 3,
-    "version": "1.0",
+    "version": "1.1",
     "name": "Tabs cellar",
     "action": {
         "default_popup": "index.html",
-        "default_icon": "images/icon.png"
-    }
+        "default_icon": "/images/icon.png"
+    },
+    "permissions": [
+        "tabs"
+    ]
 }
